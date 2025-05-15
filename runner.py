@@ -23,7 +23,7 @@ except ValueError:
 def run_attack():
     try:
         # Execute the attack command
-        os.system(f"./smokey {ip} {port} {attack_time} {threads}")
+        os.system(f"./smokey {ip} {port} {attack_time}")
     except Exception as e:
         print(f"Error during attack execution: {e}")
 
